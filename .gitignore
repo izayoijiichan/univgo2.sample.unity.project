@@ -1,0 +1,75 @@
+# =============== #
+# Unity generated #
+# =============== #
+# project directory
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ibrary/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Oo]bj/
+/[Tt]emp/
+
+# asset store tools plugin
+/[Aa]ssets/AssetStoreTools*
+
+# builds
+#*.aab
+#*.apk
+#*.unitypackage
+
+# crash reports
+sysinfo.txt
+ 
+# =============================================== #
+# Visual Studio / MonoDevelop / Consulo generated #
+# =============================================== #
+# folders
+/[Ee]xported[Oo]bj/
+/.consulo/
+/.vs/
+/.vscode/
+
+# files
+/*.booproj
+/*.csproj
+/*.sln
+/*.suo
+/*.svd
+/*.tmp
+/*.unityproj
+/*.user
+/*.userprefs
+/*.userosscache
+
+# =============== #
+# Other generated #
+# =============== #
+# log files, for some plugins
+*.log
+
+# Gradle cache directory
+.gradle/
+
+# python bytecode cache, for some plugins.
+*.pyc
+
+# Android
+crashlytics-build.properties
+
+# iOS
+.DS_Store*
+
+# Windows
+[Dd]esktop.ini
+[Ee]hthumbs.db
+[Tt]humbs.db
+[Tt]humbcache_*.db
+
+# dll
+#*.mdb
+#*.mdb.meta
+#*.pdb
+#*.pdb.meta
+#*.pidb
+#*.pidb.meta
