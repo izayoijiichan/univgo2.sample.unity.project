@@ -5,7 +5,8 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.modules.ui": "1.0.0"
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
       }
     },
     "com.vrmc.vrmshaders": {
@@ -23,7 +24,7 @@
       "hash": "238bcb5049303df85694a97f8267c838d6cf2042"
     },
     "izayoi.univgo2": {
-      "version": "https://github.com/izayoijiichan/VGO2.git#v2.0.0",
+      "version": "https://github.com/izayoijiichan/VGO2.git#v2.0.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -32,7 +33,7 @@
         "izayoi.unishaders": "1.0.0",
         "org.nuget.system.memory": "4.5.0"
       },
-      "hash": "7dc0cc3258db5e9b6f04d61b4a35d4a8e21d622d"
+      "hash": "073b24414803a9b2e23964a907491f77154c3c96"
     },
     "jillejr.newtonsoft.json-for-unity": {
       "version": "12.0.301",
