@@ -7,9 +7,9 @@ ___
 
 |name|version|
 |:--|:--:|
-|Unity|2019.4.8f1|
-|UniVGO|2.0.0|
-|VGO|2.0|
+|Unity|2019.4.15f1|
+|UniVGO|2.1.0|
+|VGO|2.1|
 
 ___
 ## Link
@@ -33,7 +33,7 @@ ___
 [Usage.ja.md](https://github.com/izayoijiichan/VGO2/blob/master/Documentation~/UniVGO/Usage.ja.md)
 
 ___
-Last updated: 20 August, 2020  
+Last updated: 1 December, 2020  
 Editor: Izayoi Jiichan
 
 *Copyright (C) 2020 Izayoi Jiichan. All Rights Reserved.*
