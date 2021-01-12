@@ -29,6 +29,7 @@ sysinfo.txt
 /.consulo/
 /.vs/
 /.vscode/
+.vsconfig
 
 # files
 /*.booproj

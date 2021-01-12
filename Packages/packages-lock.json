@@ -24,7 +24,7 @@
       "hash": "238bcb5049303df85694a97f8267c838d6cf2042"
     },
     "izayoi.univgo2": {
-      "version": "https://github.com/izayoijiichan/VGO2.git#v2.1.0",
+      "version": "https://github.com/izayoijiichan/VGO2.git#v2.1.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -34,7 +34,7 @@
         "jillejr.newtonsoft.json-for-unity": "12.0.301",
         "org.nuget.system.memory": "4.5.0"
       },
-      "hash": "d720b93c72481a1ea97cfbb14f8c52bc57d419c6"
+      "hash": "2b728b4eb84922e3365dbe24fb53cd87bf0a1848"
     },
     "izayoi.vgospringbone": {
       "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.0.0",
