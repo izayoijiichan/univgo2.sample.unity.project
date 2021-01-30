@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300595, g: 0.4921947, b: 0.57192373, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300595, g: 0.49219477, b: 0.5719239, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -301,7 +301,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.3510647e-38, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 9.282e-42, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -5694,7 +5694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GeneratorInfo:
     name: UniVGO
-    version: 2.0.1
+    version: 2.1.2
 --- !u!114 &2104868471
 MonoBehaviour:
   m_ObjectHideFlags: 0
