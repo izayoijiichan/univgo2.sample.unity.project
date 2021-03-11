@@ -1,5 +1,14 @@
 # Change Log
 
+## [2.2.1] - 2021-03-12
+Added support for UniVGO 2.2.1 version.
+
+## [2.2.0] - 2021-02-01
+Added support for UniVGO 2.2.0 version.
+
+## [2.1.2] - 2021-01-31
+Added support for UniVGO 2.1.2 version.
+
 ## [2.1.1] - 2021-01-12
 Added support for UniVGO 2.1.1 version.
 
