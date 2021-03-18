@@ -3,7 +3,9 @@
     {
       "name": "Unity NuGet",
       "url": "https://unitynuget-registry.azurewebsites.net",
-      "scopes": ["org.nuget"]
+      "scopes": [
+        "org.nuget"
+      ]
     },
     {
       "name": "Packages from jillejr",
@@ -14,12 +16,12 @@
     }
   ],
   "dependencies": {
+    "com.izayoi.unishaders": "https://github.com/izayoijiichan/UniShaders.git#v1.1.0",
+    "com.izayoi.univgo2": "https://github.com/izayoijiichan/VGO2.git#v2.3.0",
+    "com.izayoi.vgospringbone": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.0",
     "com.unity.ugui": "1.0.0",
-    "com.vrmc.vrmshaders": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.56.0",
-    "izayoi.unishaders": "https://github.com/izayoijiichan/UniShaders.git#v1.0.1",
-    "izayoi.univgo2": "https://github.com/izayoijiichan/VGO2.git#v2.2.1",
-    "izayoi.vgospringbone": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.0.0",
-    "jillejr.newtonsoft.json-for-unity": "12.0.301",
+    "com.vrmc.vrmshaders": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.62.0",
+    "jillejr.newtonsoft.json-for-unity": "12.0.302",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
