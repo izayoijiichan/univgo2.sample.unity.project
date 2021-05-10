@@ -8,17 +8,17 @@
       "hash": "de0c2155a71fcef51a9fd2d9fdc804c6c624a4ef"
     },
     "com.izayoi.univgo2": {
-      "version": "https://github.com/izayoijiichan/VGO2.git#v2.3.0",
+      "version": "https://github.com/izayoijiichan/VGO2.git#v2.3.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.izayoi.unishaders": "1.1.0",
         "com.izayoi.vgospringbone": "1.1.0",
         "com.vrmc.vrmshaders": "0.62.0",
-        "jillejr.newtonsoft.json-for-unity": "12.0.302",
+        "jillejr.newtonsoft.json-for-unity": "13.0.102",
         "org.nuget.system.memory": "4.5.0"
       },
-      "hash": "b790a057f61cb3d6b2ebc3b1ac15fb884c50e0b1"
+      "hash": "c55db901fa443ca26d28cdeae6f4ee093ddf72f8"
     },
     "com.izayoi.vgospringbone": {
       "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.0",
@@ -44,7 +44,7 @@
       "hash": "0b7f99734e56e8bd23212106bbbc34a997c4c9be"
     },
     "jillejr.newtonsoft.json-for-unity": {
-      "version": "12.0.302",
+      "version": "13.0.102",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -52,14 +52,14 @@
     },
     "org.nuget.system.buffers": {
       "version": "4.4.0",
-      "depth": 2,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "org.nuget.system.memory": {
       "version": "4.5.0",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.buffers": "4.4.0",
@@ -70,14 +70,14 @@
     },
     "org.nuget.system.numerics.vectors": {
       "version": "4.4.0",
-      "depth": 2,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "org.nuget.system.runtime.compilerservices.unsafe": {
       "version": "4.5.0",
-      "depth": 2,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://unitynuget-registry.azurewebsites.net"
