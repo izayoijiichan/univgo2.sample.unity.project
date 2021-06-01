@@ -8,24 +8,24 @@
       "hash": "de0c2155a71fcef51a9fd2d9fdc804c6c624a4ef"
     },
     "com.izayoi.univgo2": {
-      "version": "https://github.com/izayoijiichan/VGO2.git#v2.3.1",
+      "version": "https://github.com/izayoijiichan/VGO2.git#v2.3.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.izayoi.unishaders": "1.1.0",
-        "com.izayoi.vgospringbone": "1.1.0",
+        "com.izayoi.vgospringbone": "1.1.1",
         "com.vrmc.vrmshaders": "0.62.0",
         "jillejr.newtonsoft.json-for-unity": "13.0.102",
         "org.nuget.system.memory": "4.5.0"
       },
-      "hash": "c55db901fa443ca26d28cdeae6f4ee093ddf72f8"
+      "hash": "bbc1ca44769747ece336df07a14796b1a1c6ba26"
     },
     "com.izayoi.vgospringbone": {
-      "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.0",
+      "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.1",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "4ee197e598c4f0d88e3e0da459da8267f9098d6f"
+      "hash": "0e598faf49338326c9abb02688516d3ea979eb9f"
     },
     "com.unity.ugui": {
       "version": "1.0.0",
