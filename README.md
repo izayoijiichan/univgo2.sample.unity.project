@@ -7,8 +7,8 @@ ___
 
 |name|version|
 |:--|:--:|
-|Unity|2021.1.0f1|
-|UniVGO|2.4.2|
+|Unity|2021.2.0f1|
+|UniVGO|2.4.3|
 |VGO|2.4|
 
 ___
@@ -34,10 +34,10 @@ ___
 
 ### UniVGO2 Sample Unity Project (not HDRP)
 
-[GitHub](https://github.com/izayoijiichan/univgo2.sample.unity.project)
+[GitHub](https://github.com/izayoijiichan/univgo2.sample.unity2021.2.project)
 
 ___
-Last updated: 10 November, 2021  
+Last updated: 20 November, 2021  
 Editor: Izayoi Jiichan
 
-*Copyright (C) 2020 Izayoi Jiichan. All Rights Reserved.*
+*Copyright (C) 2021 Izayoi Jiichan. All Rights Reserved.*

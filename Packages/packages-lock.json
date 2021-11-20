@@ -8,17 +8,16 @@
       "hash": "5b338456f6855e9cdcfb93fd96048ee60b3e9ec1"
     },
     "com.izayoi.univgo2": {
-      "version": "https://github.com/izayoijiichan/VGO2.git#v2.4.2",
+      "version": "https://github.com/izayoijiichan/VGO2.git#v2.4.3",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.izayoi.unishaders": "1.2.0",
         "com.izayoi.vgospringbone": "1.1.1",
         "com.vrmc.vrmshaders": "0.62.0",
-        "jillejr.newtonsoft.json-for-unity": "13.0.102",
-        "org.nuget.system.memory": "4.5.0"
+        "jillejr.newtonsoft.json-for-unity": "13.0.102"
       },
-      "hash": "b0d05ad5a48531412921b06697753e5704fc9118"
+      "hash": "4d096b5fda7b4bb22f04767e7a08d0a6ed027c44"
     },
     "com.izayoi.vgospringbone": {
       "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.1",
@@ -27,51 +26,71 @@
       "dependencies": {},
       "hash": "0e598faf49338326c9abb02688516d3ea979eb9f"
     },
+    "com.unity.burst": {
+      "version": "1.6.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mathematics": {
+      "version": "1.2.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
-      "version": "11.0.0",
+      "version": "12.1.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.modules.physics": "1.0.0"
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
     "com.unity.render-pipelines.high-definition": {
-      "version": "11.0.0",
+      "version": "12.1.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.burst": "1.5.0",
         "com.unity.modules.video": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
-        "com.unity.render-pipelines.core": "11.0.0",
-        "com.unity.shadergraph": "11.0.0",
-        "com.unity.visualeffectgraph": "11.0.0",
-        "com.unity.render-pipelines.high-definition-config": "11.0.0"
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.render-pipelines.core": "12.1.0",
+        "com.unity.shadergraph": "12.1.0",
+        "com.unity.visualeffectgraph": "12.1.0",
+        "com.unity.render-pipelines.high-definition-config": "12.1.0"
       }
     },
     "com.unity.render-pipelines.high-definition-config": {
-      "version": "11.0.0",
+      "version": "12.1.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "11.0.0"
+        "com.unity.render-pipelines.core": "12.1.0"
       }
     },
     "com.unity.searcher": {
-      "version": "4.3.2",
+      "version": "4.9.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "11.0.0",
+      "version": "12.1.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "11.0.0",
-        "com.unity.searcher": "4.3.1"
+        "com.unity.render-pipelines.core": "12.1.0",
+        "com.unity.searcher": "4.8.0"
       }
     },
     "com.unity.ugui": {
@@ -84,12 +103,12 @@
       }
     },
     "com.unity.visualeffectgraph": {
-      "version": "11.0.0",
+      "version": "12.1.0",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.shadergraph": "11.0.0",
-        "com.unity.render-pipelines.core": "11.0.0"
+        "com.unity.shadergraph": "12.1.0",
+        "com.unity.render-pipelines.core": "12.1.0"
       }
     },
     "com.vrmc.vrmshaders": {
@@ -105,38 +124,6 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://npm.cloudsmith.io/jillejr/newtonsoft-json-for-unity"
-    },
-    "org.nuget.system.buffers": {
-      "version": "4.4.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://unitynuget-registry.azurewebsites.net"
-    },
-    "org.nuget.system.memory": {
-      "version": "4.5.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "org.nuget.system.buffers": "4.4.0",
-        "org.nuget.system.numerics.vectors": "4.4.0",
-        "org.nuget.system.runtime.compilerservices.unsafe": "4.5.0"
-      },
-      "url": "https://unitynuget-registry.azurewebsites.net"
-    },
-    "org.nuget.system.numerics.vectors": {
-      "version": "4.4.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://unitynuget-registry.azurewebsites.net"
-    },
-    "org.nuget.system.runtime.compilerservices.unsafe": {
-      "version": "4.5.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
