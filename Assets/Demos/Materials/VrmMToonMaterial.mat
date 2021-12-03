@@ -84,7 +84,9 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
+    - _AlphaToMask: 0
     - _BlendMode: 0
     - _BumpScale: 1
     - _CullMode: 2
@@ -97,7 +99,7 @@ Material:
     - _GlossyReflections: 1
     - _IndirectLightIntensity: 0.1
     - _LightColorAttenuation: 0
-    - _MToonVersion: 32
+    - _MToonVersion: 34
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -130,3 +132,4 @@ Material:
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadeColor: {r: 1, g: 0.9669811, b: 0.9768868, a: 1}
+  m_BuildTextureStacks: []
