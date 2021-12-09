@@ -1,6 +1,7 @@
 namespace UniVgoDemos
 {
     using System.IO;
+    using UniGLTF;
     using UnityEngine;
     using VRM;
 
@@ -13,9 +14,13 @@ namespace UniVgoDemos
         {
             if (File.Exists(_LocalFilePath))
             {
-                var vrmImporterContext = new VRMImporterContext();
+                var gltfParser = new GltfParser();
 
-                vrmImporterContext.Load(_LocalFilePath);
+                gltfParser.ParsePath(_LocalFilePath);
+
+                var vrmImporterContext = new VRMImporterContext(gltfParser);
+
+                vrmImporterContext.Load();
 
                 vrmImporterContext.EnableUpdateWhenOffscreen();
 

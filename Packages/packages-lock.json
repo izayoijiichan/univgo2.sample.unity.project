@@ -26,24 +26,6 @@
       "dependencies": {},
       "hash": "0e598faf49338326c9abb02688516d3ea979eb9f"
     },
-    "com.unity.ext.nunit": {
-      "version": "1.0.6",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.test-framework": {
-      "version": "1.1.29",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ext.nunit": "1.0.6",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ugui": {
       "version": "1.0.0",
       "depth": 0,
@@ -54,30 +36,30 @@
       }
     },
     "com.vrmc.unigltf": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.66.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.68.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.vrmc.vrmshaders": "0.66.0"
+        "com.vrmc.vrmshaders": "0.68.2"
       },
-      "hash": "39d54ce7d3b0061d2d9ee236017dca129c7cdc51"
+      "hash": "2273022411eb36724cd51723ec40fcf46add118a"
     },
     "com.vrmc.univrm": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.66.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.68.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.vrmc.vrmshaders": "0.66.0",
-        "com.vrmc.unigltf": "2.2.0"
+        "com.vrmc.vrmshaders": "0.68.2",
+        "com.vrmc.unigltf": "2.4.2"
       },
-      "hash": "39d54ce7d3b0061d2d9ee236017dca129c7cdc51"
+      "hash": "2273022411eb36724cd51723ec40fcf46add118a"
     },
     "com.vrmc.vrmshaders": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.66.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.68.2",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "39d54ce7d3b0061d2d9ee236017dca129c7cdc51"
+      "hash": "2273022411eb36724cd51723ec40fcf46add118a"
     },
     "jillejr.newtonsoft.json-for-unity": {
       "version": "13.0.102",
