@@ -8,8 +8,8 @@ ___
 |name|version|
 |:--|:--:|
 |Unity|2021.1.28f1|
-|UniVGO|2.4.4|
-|UniVRM|0.68.2|
+|UniVGO|2.4.5|
+|UniVRM|0.72.0|
 
 ___
 ## Link
