@@ -14,17 +14,18 @@ namespace UniVgoDemos
         {
             if (File.Exists(_LocalFilePath))
             {
-                var gltfParser = new GltfParser();
+                var parser = new GlbFileParser(_LocalFilePath);
 
-                gltfParser.ParsePath(_LocalFilePath);
+                GltfData data = parser.Parse();
 
-                var vrmImporterContext = new VRMImporterContext(gltfParser);
+                using (var context = new VRMImporterContext(data))
+                {
+                    RuntimeGltfInstance loaded = context.Load();
 
-                vrmImporterContext.Load();
+                    loaded.EnableUpdateWhenOffscreen();
 
-                vrmImporterContext.EnableUpdateWhenOffscreen();
-
-                vrmImporterContext.ShowMeshes();
+                    loaded.ShowMeshes();
+                }
             }
             else
             {
