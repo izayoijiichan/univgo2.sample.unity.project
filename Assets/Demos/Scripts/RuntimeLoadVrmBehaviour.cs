@@ -16,9 +16,11 @@ namespace UniVgoDemos
             {
                 var parser = new GlbFileParser(_LocalFilePath);
 
-                GltfData data = parser.Parse();
+                GltfData gltfData = parser.Parse();
 
-                using (var context = new VRMImporterContext(data))
+                var vrmData = new VRMData(gltfData);
+
+                using (var context = new VRMImporterContext(vrmData))
                 {
                     RuntimeGltfInstance loaded = context.Load();
 
