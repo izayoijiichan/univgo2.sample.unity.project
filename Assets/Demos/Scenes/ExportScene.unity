@@ -5794,7 +5794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GeneratorInfo:
     name: UniVGO
-    version: 2.4.4
+    version: 2.4.5
 --- !u!114 &2104868471
 MonoBehaviour:
   m_ObjectHideFlags: 0
