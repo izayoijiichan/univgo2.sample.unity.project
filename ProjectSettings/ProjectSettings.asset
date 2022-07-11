@@ -586,7 +586,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: VRMC_VRMSHADERS_0_85_OR_NEWER
+    1: LILTOON_1_3_0_OR_NEWER;VRMC_VRMSHADERS_0_85_OR_NEWER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
