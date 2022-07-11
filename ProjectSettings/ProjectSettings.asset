@@ -597,7 +597,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    Standalone: VRMC_VRMSHADERS_0_85_OR_NEWER
+    Standalone: LILTOON_1_3_0_OR_NEWER;VRMC_VRMSHADERS_0_85_OR_NEWER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
