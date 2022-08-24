@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "com.izayoi.liltoon.shader.utility": {
-      "version": "https://github.com/izayoijiichan/lilToonShaderUtility.git#v1.0.0",
+      "version": "https://github.com/izayoijiichan/lilToonShaderUtility.git#v1.0.1",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "20f0a456be1f1496e3535eda09e434c2e6ae17a4"
+      "hash": "0583a9f91a9aa6bb51886fd3330e075e91efbb67"
     },
     "com.izayoi.unishaders": {
       "version": "https://github.com/izayoijiichan/UniShaders.git#v1.4.0",
@@ -15,24 +15,24 @@
       "hash": "9a40b4b321c1e6085e648484a989a5f38f8e47ff"
     },
     "com.izayoi.univgo2": {
-      "version": "https://github.com/izayoijiichan/VGO2.git#v2.4.10",
+      "version": "https://github.com/izayoijiichan/VGO2.git#v2.4.11",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.izayoi.liltoon.shader.utility": "1.0.0",
         "com.izayoi.unishaders": "1.4.0",
-        "com.izayoi.vgospringbone": "1.1.1",
+        "com.izayoi.vgospringbone": "1.1.2",
         "com.unity.nuget.newtonsoft-json": "3.0.0",
         "com.vrmc.vrmshaders": "0.72.0"
       },
-      "hash": "057641a94a73ef6368e852dd87c4be4ec4c091f0"
+      "hash": "db50e6330a9a5ec5e8a62b14bf74ee256c6351bb"
     },
     "com.izayoi.vgospringbone": {
-      "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.1",
+      "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.2",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "0e598faf49338326c9abb02688516d3ea979eb9f"
+      "hash": "ba949636fa3f671a08a4ceffad762544054dec8b"
     },
     "com.unity.burst": {
       "version": "1.6.0",
