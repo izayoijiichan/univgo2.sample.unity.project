@@ -15,17 +15,17 @@
       "hash": "9a40b4b321c1e6085e648484a989a5f38f8e47ff"
     },
     "com.izayoi.univgo2": {
-      "version": "https://github.com/izayoijiichan/VGO2.git#v2.4.11",
+      "version": "https://github.com/izayoijiichan/VGO2.git#v2.5.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.izayoi.liltoon.shader.utility": "1.0.0",
+        "com.izayoi.liltoon.shader.utility": "1.0.1",
         "com.izayoi.unishaders": "1.4.0",
         "com.izayoi.vgospringbone": "1.1.2",
         "com.unity.nuget.newtonsoft-json": "3.0.0",
         "com.vrmc.vrmshaders": "0.72.0"
       },
-      "hash": "db50e6330a9a5ec5e8a62b14bf74ee256c6351bb"
+      "hash": "5847167d7e7f62b907b9f637d8778c9935b23e4a"
     },
     "com.izayoi.vgospringbone": {
       "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.2",
@@ -51,30 +51,30 @@
       }
     },
     "com.vrmc.gltf": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.99.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.100.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.vrmc.vrmshaders": "0.99.0"
+        "com.vrmc.vrmshaders": "0.100.0"
       },
-      "hash": "f9ee070a7bc2a4f124795103c22bac2af9f8a241"
+      "hash": "8eb3fb1699430edcec44f86d6156a86bf75ae6eb"
     },
     "com.vrmc.univrm": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.99.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.100.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.vrmc.vrmshaders": "0.99.0",
-        "com.vrmc.gltf": "0.99.0"
+        "com.vrmc.vrmshaders": "0.100.0",
+        "com.vrmc.gltf": "0.100.0"
       },
-      "hash": "f9ee070a7bc2a4f124795103c22bac2af9f8a241"
+      "hash": "8eb3fb1699430edcec44f86d6156a86bf75ae6eb"
     },
     "com.vrmc.vrmshaders": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.99.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.100.0",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "f9ee070a7bc2a4f124795103c22bac2af9f8a241"
+      "hash": "8eb3fb1699430edcec44f86d6156a86bf75ae6eb"
     },
     "jp.lilxyzw.liltoon": {
       "version": "https://github.com/lilxyzw/lilToon.git?path=Assets/lilToon#1.3.1",
