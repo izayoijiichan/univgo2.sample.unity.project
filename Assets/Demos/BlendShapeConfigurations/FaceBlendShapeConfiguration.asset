@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b50faffa2311fb246aa59c25eebd61f3, type: 3}
+  m_Name: FaceBlendShapeConfiguration
+  m_EditorClassIdentifier: 
+  kind: 1
+  faceParts: []
+  blinks:
+  - type: 1
+    index: 26
+  - type: 2
+    index: 27
+  - type: 3
+    index: 24
+  visemes:
+  - type: 10
+    index: 0
+  - type: 12
+    index: 1
+  - type: 14
+    index: 2
+  - type: 11
+    index: 3
+  - type: 13
+    index: 4
+  presets: []
