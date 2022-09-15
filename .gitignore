@@ -9,6 +9,7 @@
 /[Mm]emoryCaptures/
 /[Oo]bj/
 /[Tt]emp/
+/UserSettings/
 
 # asset store tools plugin
 /[Aa]ssets/AssetStoreTools*
@@ -29,6 +30,7 @@ sysinfo.txt
 /.consulo/
 /.vs/
 /.vscode/
+.vsconfig
 
 # files
 /*.booproj
