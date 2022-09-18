@@ -15,7 +15,7 @@
       "hash": "9a40b4b321c1e6085e648484a989a5f38f8e47ff"
     },
     "com.izayoi.univgo": {
-      "version": "https://github.com/izayoijiichan/VGO.git#v2.5.1",
+      "version": "https://github.com/izayoijiichan/VGO.git#v2.5.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -25,7 +25,7 @@
         "com.unity.nuget.newtonsoft-json": "3.0.0",
         "com.vrmc.vrmshaders": "0.72.0"
       },
-      "hash": "d68ba57995eb19dfa067373715544f4c0bf9dbec"
+      "hash": "8a7346c94dec95efa7d5115a3063dee79855ca24"
     },
     "com.izayoi.vgospringbone": {
       "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.2",
@@ -51,30 +51,34 @@
       }
     },
     "com.vrmc.gltf": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.101.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.103.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.vrmc.vrmshaders": "0.101.0"
+        "com.vrmc.vrmshaders": "0.103.2",
+        "com.unity.modules.animation": "1.0.0"
       },
-      "hash": "af989036f86c3533b9ac11eef36a30ec070bcbdc"
+      "hash": "c56327ce6b22bfb002ea41c6d7eb99a70857bc3c"
     },
     "com.vrmc.univrm": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.101.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.103.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.vrmc.vrmshaders": "0.101.0",
-        "com.vrmc.gltf": "0.101.0"
+        "com.vrmc.vrmshaders": "0.103.2",
+        "com.vrmc.gltf": "0.103.2",
+        "com.unity.ugui": "1.0.0"
       },
-      "hash": "af989036f86c3533b9ac11eef36a30ec070bcbdc"
+      "hash": "c56327ce6b22bfb002ea41c6d7eb99a70857bc3c"
     },
     "com.vrmc.vrmshaders": {
-      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.101.0",
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.103.2",
       "depth": 0,
       "source": "git",
-      "dependencies": {},
-      "hash": "af989036f86c3533b9ac11eef36a30ec070bcbdc"
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "hash": "c56327ce6b22bfb002ea41c6d7eb99a70857bc3c"
     },
     "jp.lilxyzw.liltoon": {
       "version": "https://github.com/lilxyzw/lilToon.git?path=Assets/lilToon#1.3.1",

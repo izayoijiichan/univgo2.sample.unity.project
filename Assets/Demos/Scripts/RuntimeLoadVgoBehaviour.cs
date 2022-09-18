@@ -1,4 +1,5 @@
-﻿namespace UniVgoDemos
+﻿#nullable enable
+namespace UniVgoDemos
 {
     using System;
     using System.IO;
@@ -8,9 +9,9 @@
     public class RuntimeLoadVgoBehaviour : MonoBehaviour
     {
         [SerializeField]
-        private string _LocalFilePath = null;
+        private string _LocalFilePath = string.Empty;
 
-        private IDisposable _ModelAssetDisposer;
+        private IDisposable? _ModelAssetDisposer = null;
         
         private void Start()
         {

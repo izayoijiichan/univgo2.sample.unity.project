@@ -1,5 +1,7 @@
+#nullable enable
 namespace UniVgoDemos
 {
+    using System;
     using System.IO;
     using UniGLTF;
     using UnityEngine;
@@ -8,7 +10,9 @@ namespace UniVgoDemos
     public class RuntimeLoadVrmBehaviour : MonoBehaviour
     {
         [SerializeField]
-        private string _LocalFilePath = null;
+        private string _LocalFilePath = string.Empty;
+
+        private IDisposable? _GltfInstanceDisposer = null;
 
         private void Start()
         {
@@ -24,15 +28,20 @@ namespace UniVgoDemos
                 {
                     RuntimeGltfInstance loaded = context.Load();
 
-                    loaded.EnableUpdateWhenOffscreen();
-
                     loaded.ShowMeshes();
+
+                    _GltfInstanceDisposer = loaded;
                 }
             }
             else
             {
                 Debug.LogWarningFormat("File is not found. {0}", _LocalFilePath);
             }
+        }
+
+        private void OnDestroy()
+        {
+            _GltfInstanceDisposer?.Dispose();
         }
     }
 }
