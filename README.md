@@ -9,8 +9,8 @@ ___
 |name|version|
 |:--|:--:|
 |Unity|2021.3.0f1|
-|UniVGO|2.5.2|
-|UniVRM|0.103.2|
+|UniVGO|2.5.3|
+|UniVRM|0.108.0|
 
 ___
 
@@ -47,7 +47,7 @@ UniVGO + UniVRM
 [GitHub](https://github.com/vrm-c/UniVRM)
 
 ___
-Last updated: 18 September, 2022  
+Last updated: 4 April, 2023  
 Editor: Izayoi Jiichan
 
 *Copyright (C) 2021 Izayoi Jiichan. All Rights Reserved.*
