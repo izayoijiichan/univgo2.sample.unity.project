@@ -9,7 +9,7 @@ ___
 |name|version|
 |:--|:--:|
 |Unity|2021.3.0f1|
-|UniVGO|2.5.3|
+|UniVGO|2.5.4|
 |VGO|2.5|
 
 ___
@@ -48,7 +48,7 @@ ___
 |2021.3.0f1|HDRP|[Link](https://github.com/izayoijiichan/univgo2.sample.unity.project/tree/unity2021.3.hdrp)|
 
 ___
-Last updated: 4 April, 2023  
+Last updated: 4 May, 2023  
 Editor: Izayoi Jiichan
 
 *Copyright (C) 2022 Izayoi Jiichan. All Rights Reserved.*
