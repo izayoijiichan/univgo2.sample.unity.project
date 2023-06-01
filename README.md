@@ -8,7 +8,7 @@ ___
 
 |name|version|
 |:--|:--:|
-|Unity|2021.3.0f1|
+|Unity|2022.3.0f1|
 |UniVGO|2.5.5|
 |VGO|2.5|
 
