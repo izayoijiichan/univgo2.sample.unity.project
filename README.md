@@ -9,8 +9,8 @@ ___
 |name|version|
 |:--|:--:|
 |Unity|2021.3.0f1|
-|UniVGO|2.5.4|
-|UniVRM|0.109.0|
+|UniVGO|2.5.5|
+|UniVRM|0.110.0|
 
 ___
 
@@ -41,13 +41,14 @@ UniVGO + UniVRM
 |2020.3.39f1|BRP|[Link](https://github.com/izayoijiichan/univgo2.sample.unity.project/tree/unity2020.3.brp.univrm)|
 |2021.1.28f1|BRP|[Link](https://github.com/izayoijiichan/univgo2.sample.unity.project/tree/unity2021.1.brp.univrm)|
 |2021.3.0f1|BRP|[Link](https://github.com/izayoijiichan/univgo2.sample.unity.project/tree/unity2021.3.brp.univrm)|
+|2022.3.0f1|BRP|[Link](https://github.com/izayoijiichan/univgo2.sample.unity.project/tree/unity2022.3.brp.univrm)|
 
 ## UniVRM
 
 [GitHub](https://github.com/vrm-c/UniVRM)
 
 ___
-Last updated: 4 May, 2023  
+Last updated: 1 June, 2023  
 Editor: Izayoi Jiichan
 
 *Copyright (C) 2021 Izayoi Jiichan. All Rights Reserved.*
