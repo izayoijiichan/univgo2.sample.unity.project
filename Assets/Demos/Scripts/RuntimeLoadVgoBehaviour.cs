@@ -8,6 +8,8 @@ namespace UniVgoDemos
 
     public class RuntimeLoadVgoBehaviour : MonoBehaviour
     {
+        private readonly VgoImporter _VgoImporter = new VgoImporter();
+
         [SerializeField]
         private string _LocalFilePath = string.Empty;
 
@@ -17,13 +19,11 @@ namespace UniVgoDemos
         {
             if (File.Exists(_LocalFilePath))
             {
-                var vgoImporter = new VgoImporter();
+                VgoModelAsset vgoModelAsset = _VgoImporter.Load(_LocalFilePath);
 
-                ModelAsset modelAsset = vgoImporter.Load(_LocalFilePath);
+                _VgoImporter.ReflectSkybox(Camera.main, vgoModelAsset);
 
-                vgoImporter.ReflectSkybox(Camera.main, modelAsset);
-
-                _ModelAssetDisposer = modelAsset;
+                _ModelAssetDisposer = vgoModelAsset;
             }
             else
             {
