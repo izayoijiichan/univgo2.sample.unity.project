@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.izayoi.liltoon.shader.utility": "https://github.com/izayoijiichan/lilToonShaderUtility.git#v1.4.0",
-    "com.izayoi.unishaders": "https://github.com/izayoijiichan/UniShaders.git#v1.4.0",
-    "com.izayoi.univgo": "https://github.com/izayoijiichan/VGO.git#v2.5.9",
+    "com.izayoi.unishaders": "https://github.com/izayoijiichan/UniShaders.git#v1.5.0",
+    "com.izayoi.univgo": "https://github.com/izayoijiichan/VGO.git#v2.5.10",
     "com.izayoi.vgospringbone": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.2",
     "com.unity.nuget.newtonsoft-json": "3.2.1",
     "com.unity.ugui": "1.0.0",

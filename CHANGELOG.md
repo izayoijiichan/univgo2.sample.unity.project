@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.5.10] - 2023-07-18
+Added support for UniVGO 2.5.10 version.
+
 ## [2.5.9] - 2023-07-10
 Added support for UniVGO 2.5.9 version.
 
