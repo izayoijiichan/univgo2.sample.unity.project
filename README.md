@@ -9,7 +9,7 @@ ___
 |name|version|
 |:--|:--:|
 |Unity|2022.3.0f1|
-|UniVGO|2.5.11|
+|UniVGO|2.5.12|
 |VGO|2.5|
 
 ___
@@ -49,7 +49,7 @@ ___
 |2022.3.0f1|BRP|[Link](https://github.com/izayoijiichan/univgo2.sample.unity.project/tree/unity2022.3.brp)|
 
 ___
-Last updated: 22 July, 2023  
+Last updated: 28 July, 2023  
 Editor: Izayoi Jiichan
 
 *Copyright (C) 2022 Izayoi Jiichan. All Rights Reserved.*
