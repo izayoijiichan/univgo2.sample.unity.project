@@ -15,7 +15,7 @@
       "hash": "3ee9628642c5dbe7ebbc2c9bc58567e493fa8f94"
     },
     "com.izayoi.univgo": {
-      "version": "https://github.com/izayoijiichan/VGO.git#v2.5.12",
+      "version": "https://github.com/izayoijiichan/VGO.git#v2.5.13",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -26,7 +26,7 @@
         "com.unity.nuget.newtonsoft-json": "3.0.0",
         "com.vrmc.vrmshaders": "0.79.0"
       },
-      "hash": "52f7b55b463a68991c792f61406f067d55d52879"
+      "hash": "0d4d86b64c89482f53a91418c2f36b47420b51ce"
     },
     "com.izayoi.vgospringbone": {
       "version": "https://github.com/izayoijiichan/VgoSpringBone.git#v1.1.2",
